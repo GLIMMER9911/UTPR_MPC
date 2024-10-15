@@ -1,0 +1,23 @@
+# Vim tmp files
+*.swp
+
+# dir
+slprj/
+*/slprj/
+Simulink_test/compare_vedio/
+paper_polt/
+mpc_lpv_result/
+matrix_cpp/
+
+# file
+.editorconfig
+.gitattributes
+
+CMakeSettings.json
+*.mp4
+*.png
+*.xlsx
+*.asv
+*.slxc
+*.zip
+*.xlsx
