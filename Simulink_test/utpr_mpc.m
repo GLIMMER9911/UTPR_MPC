@@ -15,7 +15,7 @@ function u = utpr_mpc(x)
     T  = 0.01;
     nx = 6;
     nu = 2;
-    x0 = [deg2rad(0.7); deg2rad(0.7); deg2rad(0.7); 0; 0; 0];
+    x0 = [deg2rad(0.6); deg2rad(0.6); deg2rad(0.6); 0; 0; 0];
     u_bar = [20; 20];   % 需要查文献确定取值
 
     %%
@@ -77,6 +77,7 @@ function u = utpr_mpc(x)
 
         regularization = 1e-10;
         Gamma = Gamma/(1 + regularization*norm(Gamma, "fro") );
+        Phi = Phi/(1 + regularization*norm(Phi, "fro") );
 
         % Calculate QP cost function matrices
         g = Gamma' * Q_hat * Phi * x;
