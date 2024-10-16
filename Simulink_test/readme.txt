@@ -4,3 +4,5 @@
 
 1. 配置LQR的 Interpreted MATLAB Fcn
 
+2. 运行 startup.m 
+
