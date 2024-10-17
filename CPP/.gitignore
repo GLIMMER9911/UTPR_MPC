@@ -1,0 +1,24 @@
+# Vim tmp files
+*.swp
+
+#for qt
+CMakeLists.txt.user
+# for cmake
+CMakeCache.txt
+CMakeFiles
+# Makefile     this should be commented because we have Makefile in sh folder
+cmake_install.cmake
+install_manifest.txt
+debuglog.txt
+
+# Executables
+*.exe
+/out
+*.app
+/.vs
+/out
+/CMakeSettings.json
+
+# for vscode
+.vscode/
+build/
