@@ -8,6 +8,7 @@ Simulink_test/compare_vedio/
 paper_polt/
 mpc_lpv_result/
 matrix_cpp/
+UTPR_Matlab_Model/UTPR/
 
 # file
 .editorconfig
@@ -15,7 +16,7 @@ matrix_cpp/
 
 CMakeSettings.json
 *.mp4
-*.png
+
 *.xlsx
 *.asv
 *.slxc
